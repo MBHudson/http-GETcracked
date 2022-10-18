@@ -24,11 +24,11 @@ sudo apt install -y libgcrypt11-dev
 sudo apt install -y libgcrypt20-dev
 sudo gcc http-GETcracked.c -o http-GETcracked
 sudo chmmod +x *
-git clone https://github.com/vanhauser-thc/thc-hydra
-cd thc-hydra
-./configure
-make
-cd ..
+git clone https://github.com/vanhauser-thc/thc-hydra   #!!!!STOP!!!! - IF YOU DO !NOT! WITH TO (RE)INSTALL THC-HYDRA
+cd thc-hydra                                           #COMMENT OUT THIS AND THE FOLLOWING FOUR LINES BY ADDING A "#"                        
+./configure                                            #TO THE BEGINNING THE BEGINNING OF THE LINES (LINES 27-31).
+make                                                   #IF YOU DO WANT TO REINSTALL TO A NEW VERION OF THC-HYDRA
+cd ..                                                  #IT IS RECOMENDED THAT YOU RUN "sudo apt remove hydra" BEFORE THE INSTALLATION
 sudo touch /var/www/html/cracked.txt
 sudo chmod 777 /var/www/html/cracked.txt
 sudo ./http-GETcracked
