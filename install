@@ -4,9 +4,10 @@ sudo apt install -y gcc
 sudo apt install -y masscan
 sudo apt install -y git
 sudo apt install -y git-http
+sudo apt install -y curl
 sudo apt install -y tor
 sudo apt install -y iptables
-sudo apt install -y proxyschain4
+sudo apt install -y proxychains4
 sudo apt install -y apache2
 sudo apt install -y libssl-dev 
 sudo apt install -y libssh-dev 
