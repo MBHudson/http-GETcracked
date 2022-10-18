@@ -21,6 +21,8 @@ Once the script is ran you will be given a series of prompts (with examples) ask
  <img align="left" width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/cam.jpg"> <img align="right" width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/router.jpg">
 
 
+
+
 ### Installation:
 
 Run in a terminal inside root "http-GETcracked" directory:
