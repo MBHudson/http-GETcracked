@@ -3,12 +3,13 @@
 ##Automated Mass HTTP-GET Cracker :: Local/Remote(TOR)/Random-Remote(TOR) :: 2022
 ### Scans (through the TOR network -to- cleanet) for HTTP-GET services running on a port defined by the user and attempts to crack them with default credentials using Hydra. Capable of scanning (user defined) random or ranged IP addresses at a rate and duration set my the user from the prompts at the beginning of the script, typicaly millions of IPs per minute.
 
+### ALL SCANNING/CRACKING TRAFFIC IS ROUTED THROUGH THE TOR NETWORK
+
 
 ### Usage:
 
 Once the script is ran you will be given a series of prompts (with examples) asking for the user to define a few parameters; ei: scan duration, scan rate, scan range, port and networking interface (attempts detection but can be also be entered by the user). Once the scan is comlete there will first be a "quality control check" attemping to detect "false positives" the scanner may have picked up. Once this stage is complete the script then moves to attemping to bruteforce the remaining services using hard coded default usernames and passwords. All newly cracked services are shown at the end of the script along with any perviously cracked. All cracked, new and old, are saved under "SAVED_CRACKED" in the script's root directory. Also this script wil save these to an Apache2 server on the user's localhost machine "/var/www/html/cracked.txt" at http://127.0.0.1:80/cracked.txt 
                                  
-### ALL SCANNING/CRACKING TRAFFIC IS ROUTED THROUGH THE TOR NETWORK
 
 
 ### Installation:
