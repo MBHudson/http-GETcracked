@@ -15,7 +15,7 @@ Once the script is run you will give a series of prompts (with examples) asking 
 
 Run in a terminal inside root "http-GETcracked" directory:
 
-sudo chmod +x install && sudo install
+sudo chmod +x install && sudo ./install
 
 
 ### To run the script:
