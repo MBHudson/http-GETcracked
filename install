@@ -1,0 +1,34 @@
+sudo touch SAVED_CRACKED
+sudo apt update
+sudo apt install -y make 
+sudo apt install -y gcc
+sudo apt install -y masscan
+sudo apt install -y git
+sudo apt install -y git-http
+sudo apt install -y tor
+sudo apt install -y iptables
+sudo apt install -y proxyschain4
+sudo apt install -y apache2
+sudo apt install -y libssl-dev 
+sudo apt install -y libssh-dev 
+sudo apt install -y libidn11-dev 
+sudo apt install -y libpcre3-dev 
+sudo apt install -y libgtk2.0-dev 
+sudo apt install -y libmysqlclient-dev 
+sudo apt install -y libpq-dev 
+sudo apt install -y libsvn-dev
+sudo apt install -y firebird-dev
+sudo apt install -y libmemcached-dev
+sudo apt install -y libgpg-error-dev 
+sudo apt install -y libgcrypt11-dev 
+sudo apt install -y libgcrypt20-dev
+sudo gcc http-GETcracked.c -o http-GETcracked
+sudo chmmod +x *
+git clone https://github.com/vanhauser-thc/thc-hydra
+cd thc-hydra
+./configure
+make
+cd ..
+sudo touch /var/www/html/cracked.txt
+sudo chmod 777 /var/www/html/cracked.txt
+sudo ./http-GETcracked
