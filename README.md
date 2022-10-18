@@ -7,7 +7,7 @@
 ### Usage:
 
 Once the script is run you will give a series of prompts (with examples) asking for the user to define a few paramiters ei: scan duration, scan rate, scan range and networking interface (attempts detection but can be also entered by the user). Once the scan is comleted there will first be a "quality control check" attemping to detect "false positives" the scanner may have picked up. Once this stage is complete the script then moves onto attemping to bruteforce the remaining services using hard coded default usernames and passwords. All newly cracked services are shown at the end of the script along with any perviously cracked. All cracked, new and old, are saved under "SAVED_CRACKED" in the script's root directory. Also this script wil save these to an Apache2 server on the user's localhost machine "/var/www/html/cracked.txt" at http://127.0.0.1:80/cracked.txt 
-                                 ### ~ALL REMOTE TRAFFICE IS ROUTED THROUGH THE TOR NETWORK~
+                                 ### ALL REMOTE TRAFFICE IS ROUTED THROUGH THE TOR NETWORK
 
 
 ### Installation:
