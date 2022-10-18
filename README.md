@@ -26,7 +26,7 @@ sudo ./http-GETcracked
 
 ### Please Note!
 
-A more recent version of THC-Hydra is required to run this script because of the added "-K" option. Depending on your current verision you may want to remove your current installation (sudo apt remove hydra) and allow the installer to download the most current version and compile is for you. You can also disable this in the installer by commenting out "#" those paricular lines.
+A more recent version of THC-Hydra is required to run this script because of the added "-K" argument. Depending on your current verision you may want to remove your current installation (sudo apt remove hydra) and allow the installer to download the most current version and compile is for you. You can also disable this in the installer by commenting out "#" those paricular lines.
 
 
 ### To Come:
