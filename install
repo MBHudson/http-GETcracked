@@ -23,7 +23,7 @@ sudo apt install -y libgpg-error-dev
 sudo apt install -y libgcrypt11-dev 
 sudo apt install -y libgcrypt20-dev
 sudo gcc http-GETcracked.c -o http-GETcracked
-sudo chmmod +x *
+sudo chmod +x *
 git clone https://github.com/vanhauser-thc/thc-hydra   #!!!!STOP!!!! - IF YOU DO !NOT! WITH TO (RE)INSTALL THC-HYDRA
 cd thc-hydra                                           #COMMENT OUT THIS AND THE FOLLOWING FOUR LINES BY ADDING A "#"                        
 ./configure                                            #TO THE BEGINNING THE BEGINNING OF THE LINES (LINES 27-31).
