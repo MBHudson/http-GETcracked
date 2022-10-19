@@ -1,8 +1,5 @@
 #if 0
-	shc Version 4.0.3, Generic Shell Script Compiler
-	GNU GPL Version 3 Md Jahidul Hamid <jahidulhamid@yahoo.com>
-
-	shc -f gc -m Made By: MBHudson 2022 
+	Made By: MBHudson 2022 
 #endif
 
 static  char data [] = 
