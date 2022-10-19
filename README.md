@@ -40,6 +40,7 @@ sudo ./http-GETcracked
 
 
  <img align="right" width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/banner.jpg"> 
+ 
 ### Please Note!
 
 A more recent version of THC-Hydra is required to run this script because of the added "-K" argument. Depending on your current verision you may want to remove your current installation (sudo apt remove hydra) and allow the installer to download the most current version and compile the source code for you. You can also disable this in the installer by commenting out "#" those paricular lines (more details in the installer itself).
