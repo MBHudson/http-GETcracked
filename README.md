@@ -52,12 +52,12 @@ A more recent version of THC-Hydra is required to run this script because of the
 
 ### Future:
 
-Add "Loop" feature
+- [ ] Add "Loop" feature
 
-Add Better documentation with pictures and demo video
+- [x] ~Add Better documentation with pictures DONE 10/19/22~ 
 
-Add better method of defining specific services to be cracked along with specific methods for cracking those services
+- [ ] Add better method of defining specific services to be cracked along with specific methods for cracking those services
 
-Add user defined username and password lists
+- [ ] Add user defined username and password lists
 
-~Add user defined port: DONE 10/18/22~
+- [x] ~Add user defined port: DONE 10/18/22~
