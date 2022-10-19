@@ -28,15 +28,15 @@ Once the script is ran you will be given a series of prompts (with examples) ask
 ### Installation:
 
 Run in a terminal inside root "http-GETcracked" directory:
-
+```shell
 sudo chmod +x install && sudo ./install
-
+```
 
 
 ### Usage:
-
+```shell
 sudo ./http-GETcracked
-
+```
 
 
 
