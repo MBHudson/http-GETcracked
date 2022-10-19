@@ -4,10 +4,10 @@
 </p>
 
 
-## Automated Mass HTTP-GET Cracker :: Local/Remote(TOR)/Random-Remote(TOR) :: 2022
+## Automated Mass HTTP-GET Cracker :: Local/Remote(TOR)/Random-Remote(TOR)
 ### Scans (through the TOR network -to- cleanet) for HTTP-GET services running on a port defined by the user and attempts to crack them with default credentials using Hydra. Capable of scanning (user defined) random or ranged IP addresses at a rate and duration set my the user from the prompts at the beginning of the script, typicaly millions of IPs per minute.
 
-### ALL SCANNING/CRACKING TRAFFIC IS ROUTED THROUGH THE TOR NETWORK
+### !ALL SCANNING/CRACKING TRAFFIC IS ROUTED THROUGH THE TOR NETWORK!
 
  <p align="center">
   <img width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/pass.jpg">
