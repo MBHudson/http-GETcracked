@@ -19,7 +19,7 @@
 ### About:
 
 Once the script is ran you will be given a series of prompts (with examples) asking for the user to define a few parameters; ei: scan duration, scan rate, scan range, port and networking interface (attempts detection but can also be entered by the user). Once the scan is comlete there will first be a "quality control check" attemping to detect any "false positives" the scanner may have picked up. Once this stage is complete the script then moves to attemping to bruteforce the remaining services using hard coded default usernames and passwords. All newly cracked services are shown at the end of the script along with any perviously cracked. All cracked, new and old, are saved under "SAVED_CRACKED" in the script's root directory. Also this script wil save these to an Apache2 server on the user's localhost machine "/var/www/html/cracked.txt" at http://127.0.0.1:80/cracked.txt 
- <img align="right" width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/banner.jpg"> 
+
  
 
 
@@ -39,7 +39,7 @@ sudo ./http-GETcracked
 ```
 
 
-
+ <img align="right" width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/banner.jpg"> 
 ### Please Note!
 
 A more recent version of THC-Hydra is required to run this script because of the added "-K" argument. Depending on your current verision you may want to remove your current installation (sudo apt remove hydra) and allow the installer to download the most current version and compile the source code for you. You can also disable this in the installer by commenting out "#" those paricular lines (more details in the installer itself).
