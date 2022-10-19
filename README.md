@@ -10,7 +10,7 @@
 ### !ALL SCANNING/CRACKING TRAFFIC IS ROUTED THROUGH THE TOR NETWORK!
 
  <p align="center">
-  <img width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/pass.jpg">
+  <img width="560" height="400" src="https://github.com/MBHudson/http-GETcracked/blob/main/pass.jpg">
 </p>
 
 
