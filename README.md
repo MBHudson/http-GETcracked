@@ -36,7 +36,7 @@ git clone https://github.com/MBHudson/http-GETcracked.git && cd http-GETcracked 
 ### Usage:
 ```shell
 sudo ./http-GETcracked
-```
+``` 
 
 
  <img align="right" width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/banner.jpg"> 
