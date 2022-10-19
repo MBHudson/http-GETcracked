@@ -33,7 +33,7 @@ sudo chmod +x install && sudo ./install
 
 
 
-### To run the script:
+### Usage:
 
 sudo ./http-GETcracked
 
