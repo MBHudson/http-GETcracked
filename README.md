@@ -36,7 +36,7 @@ sudo chmod +x install && sudo ./install
 ### Usage:
 ```shell
 sudo ./http-GETcracked
-``` 
+```
 
 
  <img align="right" width="460" height="300" src="https://github.com/MBHudson/http-GETcracked/blob/main/banner.jpg"> 
