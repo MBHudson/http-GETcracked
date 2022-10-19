@@ -29,7 +29,7 @@ Once the script is ran you will be given a series of prompts (with examples) ask
 
 Run in a terminal inside root "http-GETcracked" directory:
 ```shell
-git clone https://github.com/MBHudson/http-GETcracked.git && cd http-GETcracked && sudo chmod +x install && sudo ./install
+sudo chmod +x install && sudo ./install
 ```
 
 
