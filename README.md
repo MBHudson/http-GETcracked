@@ -35,7 +35,7 @@ sudo chmod +x install && sudo ./install
 
 ### Usage:
 ```shell
-sudo ./http-GETcracked
+cd && cd http-GETcracked && sudo ./http-GETcracked
 ```
 
 
